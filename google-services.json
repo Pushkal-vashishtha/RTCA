@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "565900797118",
+    "project_id": "chatapp-e28cc",
+    "storage_bucket": "chatapp-e28cc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:565900797118:android:935918d71af3ba9dab6aef",
+        "android_client_info": {
+          "package_name": "com.pushkalvas.chatapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAeN3hpT_LhVi-S-5lastsqCEzCxkgnJZM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -3,6 +3,7 @@
     "name": "chatapp",
     "slug": "chatapp",
     "version": "1.0.0",
+    "plugins":["@react-native-firebase/app","@react-native-firebase/auth"],
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
@@ -15,13 +16,20 @@
       "supportsTablet": true
     },
     "android": {
+      "googleServiceFile":"./google-service.json",
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.pushkalvas.chatapp"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "264a8cb5-6b48-4584-9b98-e333df2fc018"
+      }
     }
   }
 }
